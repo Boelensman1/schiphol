@@ -16,7 +16,7 @@ interface LocationInfo {
   prev?: number;
 }
 
-export default class SchipholApi {
+export default class Schiphol {
   public getFlights: Function;
 
   constructor(private applicationId: string, private applicationKey: string) {

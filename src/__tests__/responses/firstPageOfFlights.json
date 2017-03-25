@@ -1,0 +1,1127 @@
+{
+  "flights": [
+    {
+      "id": 121426415917437254,
+      "flightName": "HV6110",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 6110,
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "scheduleTime": "00:05:00",
+      "serviceType": "J",
+      "mainFlight": "HV6110",
+      "codeshares": {
+        "codeshares": [
+          "DL7499",
+          "KL2664"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:15:05.000+01:00",
+      "actualLandingTime": "2017-03-25T00:15:05.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "AGP"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D72",
+      "baggageClaim": {
+        "belts": [
+          "4"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:58:53.614+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHSI",
+      "airlineCode": 164,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416295626620,
+      "flightName": "KL2664",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 2664,
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "scheduleTime": "00:05:00",
+      "serviceType": "J",
+      "mainFlight": "HV6110",
+      "codeshares": {
+        "codeshares": [
+          "DL7499",
+          "KL2664"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:15:05.000+01:00",
+      "actualLandingTime": "2017-03-25T00:15:05.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "AGP"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D72",
+      "baggageClaim": {
+        "belts": [
+          "4"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:58:53.614+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHSI",
+      "airlineCode": 100,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415325312508,
+      "flightName": "DL7499",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 7499,
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "scheduleTime": "00:05:00",
+      "serviceType": "J",
+      "mainFlight": "HV6110",
+      "codeshares": {
+        "codeshares": [
+          "DL7499",
+          "KL2664"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:15:05.000+01:00",
+      "actualLandingTime": "2017-03-25T00:15:05.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "AGP"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D72",
+      "baggageClaim": {
+        "belts": [
+          "4"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:58:53.614+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHSI",
+      "airlineCode": 58,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415917456942,
+      "flightName": "HV6882",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 6882,
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "scheduleTime": "00:10:00",
+      "serviceType": "J",
+      "mainFlight": "HV6882",
+      "codeshares": null,
+      "estimatedLandingTime": "2017-03-25T00:28:37.000+01:00",
+      "actualLandingTime": "2017-03-25T00:28:37.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "AGA"
+        ]
+      },
+      "terminal": 3,
+      "gate": "E08",
+      "baggageClaim": {
+        "belts": [
+          "15B"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T01:26:53.057+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHGGX",
+      "airlineCode": 164,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415917350168,
+      "flightName": "HV5686",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 5686,
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5686",
+      "codeshares": {
+        "codeshares": [
+          "KL2544"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-24T23:52:09.000+01:00",
+      "actualLandingTime": "2017-03-24T23:52:09.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ACE"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D61",
+      "baggageClaim": {
+        "belts": [
+          "2"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:32:57.922+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHZI",
+      "airlineCode": 164,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416295626834,
+      "flightName": "KL2690",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 2690,
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5662",
+      "codeshares": {
+        "codeshares": [
+          "KL2690"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-24T23:48:19.000+01:00",
+      "actualLandingTime": "2017-03-24T23:48:19.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LPA"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D84",
+      "baggageClaim": {
+        "belts": [
+          "6"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:23:54.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHSF",
+      "airlineCode": 100,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415917349720,
+      "flightName": "HV5624",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 5624,
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5624",
+      "codeshares": {
+        "codeshares": [
+          "DL7508",
+          "KL2676"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:12:32.000+01:00",
+      "actualLandingTime": "2017-03-25T00:12:32.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "PMI"
+        ]
+      },
+      "terminal": 1,
+      "gate": "Z07",
+      "baggageClaim": {
+        "belts": [
+          "2"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:57:05.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHGUU",
+      "airlineCode": 164,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415325314578,
+      "flightName": "DL7508",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 7508,
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5624",
+      "codeshares": {
+        "codeshares": [
+          "DL7508",
+          "KL2676"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:12:32.000+01:00",
+      "actualLandingTime": "2017-03-25T00:12:32.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "PMI"
+        ]
+      },
+      "terminal": 1,
+      "gate": "Z07",
+      "baggageClaim": {
+        "belts": [
+          "2"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:57:05.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHGUU",
+      "airlineCode": 58,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415917350012,
+      "flightName": "HV5662",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 5662,
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5662",
+      "codeshares": {
+        "codeshares": [
+          "KL2690"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-24T23:48:19.000+01:00",
+      "actualLandingTime": "2017-03-24T23:48:19.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LPA"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D84",
+      "baggageClaim": {
+        "belts": [
+          "6"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:23:54.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHSF",
+      "airlineCode": 164,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416295626686,
+      "flightName": "KL2670",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 2670,
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5358",
+      "codeshares": {
+        "codeshares": [
+          "KL2670"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-24T23:59:29.000+01:00",
+      "actualLandingTime": "2017-03-24T23:59:29.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "FAO"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D74",
+      "baggageClaim": {
+        "belts": [
+          "4"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:33:02.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHSB",
+      "airlineCode": 100,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416295626698,
+      "flightName": "KL2676",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 2676,
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5624",
+      "codeshares": {
+        "codeshares": [
+          "DL7508",
+          "KL2676"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:12:32.000+01:00",
+      "actualLandingTime": "2017-03-25T00:12:32.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "PMI"
+        ]
+      },
+      "terminal": 1,
+      "gate": "Z07",
+      "baggageClaim": {
+        "belts": [
+          "2"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:57:05.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHGUU",
+      "airlineCode": 100,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415917341736,
+      "flightName": "HV5358",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 5358,
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5358",
+      "codeshares": {
+        "codeshares": [
+          "KL2670"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-24T23:59:29.000+01:00",
+      "actualLandingTime": "2017-03-24T23:59:29.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "FAO"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D74",
+      "baggageClaim": {
+        "belts": [
+          "4"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:33:02.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHSB",
+      "airlineCode": 164,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416295623734,
+      "flightName": "KL2544",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 2544,
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "scheduleTime": "00:20:00",
+      "serviceType": "J",
+      "mainFlight": "HV5686",
+      "codeshares": {
+        "codeshares": [
+          "KL2544"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-24T23:52:09.000+01:00",
+      "actualLandingTime": "2017-03-24T23:52:09.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ACE"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D61",
+      "baggageClaim": {
+        "belts": [
+          "2"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:32:57.922+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHZI",
+      "airlineCode": 100,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416295626394,
+      "flightName": "KL2632",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 2632,
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "scheduleTime": "00:30:00",
+      "serviceType": "J",
+      "mainFlight": "HV5314",
+      "codeshares": {
+        "codeshares": [
+          "KL2632"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:47:07.000+01:00",
+      "actualLandingTime": "2017-03-25T00:47:07.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LCA"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D57",
+      "baggageClaim": {
+        "belts": [
+          "6"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T01:18:51.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHXA",
+      "airlineCode": 100,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415917451396,
+      "flightName": "HV6674",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 6674,
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "scheduleTime": "00:30:00",
+      "serviceType": "J",
+      "mainFlight": "HV6674",
+      "codeshares": {
+        "codeshares": [
+          "KL2630"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:07:43.000+01:00",
+      "actualLandingTime": "2017-03-25T00:07:43.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "TFS"
+        ]
+      },
+      "terminal": 1,
+      "gate": "C08",
+      "baggageClaim": {
+        "belts": [
+          "6"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:44:55.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHXB",
+      "airlineCode": 164,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416295626390,
+      "flightName": "KL2630",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 2630,
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "scheduleTime": "00:30:00",
+      "serviceType": "J",
+      "mainFlight": "HV6674",
+      "codeshares": {
+        "codeshares": [
+          "KL2630"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:07:43.000+01:00",
+      "actualLandingTime": "2017-03-25T00:07:43.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "TFS"
+        ]
+      },
+      "terminal": 1,
+      "gate": "C08",
+      "baggageClaim": {
+        "belts": [
+          "6"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T00:44:55.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHXB",
+      "airlineCode": 100,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426415917341432,
+      "flightName": "HV5314",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "A",
+      "flightNumber": 5314,
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "scheduleTime": "00:30:00",
+      "serviceType": "J",
+      "mainFlight": "HV5314",
+      "codeshares": {
+        "codeshares": [
+          "KL2632"
+        ]
+      },
+      "estimatedLandingTime": "2017-03-25T00:47:07.000+01:00",
+      "actualLandingTime": "2017-03-25T00:47:07.000+01:00",
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": null,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LCA"
+        ]
+      },
+      "terminal": 1,
+      "gate": "D57",
+      "baggageClaim": {
+        "belts": [
+          "6"
+        ]
+      },
+      "expectedTimeOnBelt": "2017-03-25T01:18:51.000+01:00",
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": "73H",
+        "iatasub": "73H"
+      },
+      "aircraftRegistration": "PHHXA",
+      "airlineCode": 164,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416955528511,
+      "flightName": "PC4478",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "D",
+      "flightNumber": 4478,
+      "prefixIATA": "PC",
+      "prefixICAO": "PGT",
+      "scheduleTime": "00:55:00",
+      "serviceType": "J",
+      "mainFlight": "PC4478",
+      "codeshares": {
+        "codeshares": [
+          "KL3648"
+        ]
+      },
+      "estimatedLandingTime": null,
+      "actualLandingTime": null,
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": "2017-03-25T01:05:44.000+01:00",
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "SAW"
+        ]
+      },
+      "terminal": 3,
+      "gate": "G04",
+      "baggageClaim": null,
+      "expectedTimeOnBelt": null,
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "startTime": "2017-03-24T22:25:00.000+01:00",
+            "endTime": "2017-03-25T00:25:00.000+01:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "31",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1,
+                        "checkinClass": {
+                          "code": "B",
+                          "description": "Baggage drop-off"
+                        }
+                      },
+                      {
+                        "position": 2,
+                        "checkinClass": {
+                          "code": "Y",
+                          "description": "Economy Class"
+                        }
+                      },
+                      {
+                        "position": 3,
+                        "checkinClass": {
+                          "code": "Y",
+                          "description": "Economy Class"
+                        }
+                      },
+                      {
+                        "position": 4,
+                        "checkinClass": {
+                          "code": "Y",
+                          "description": "Economy Class"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "remarks": null
+      },
+      "transferPositions": {
+        "transferPositions": [
+          9
+        ]
+      },
+      "aircraftType": {
+        "iatamain": "320",
+        "iatasub": "32S"
+      },
+      "aircraftRegistration": "TCNBG",
+      "airlineCode": 139,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426416295727787,
+      "flightName": "KL3648",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "D",
+      "flightNumber": 3648,
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "scheduleTime": "00:55:00",
+      "serviceType": "J",
+      "mainFlight": "PC4478",
+      "codeshares": {
+        "codeshares": [
+          "KL3648"
+        ]
+      },
+      "estimatedLandingTime": null,
+      "actualLandingTime": null,
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": "2017-03-25T01:05:44.000+01:00",
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "SAW"
+        ]
+      },
+      "terminal": 3,
+      "gate": "G04",
+      "baggageClaim": null,
+      "expectedTimeOnBelt": null,
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "startTime": "2017-03-24T21:55:00.000+01:00",
+            "endTime": "2017-03-25T00:25:00.000+01:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "31",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1,
+                        "checkinClass": {
+                          "code": "",
+                          "description": ""
+                        }
+                      },
+                      {
+                        "position": 2,
+                        "checkinClass": {
+                          "code": "",
+                          "description": ""
+                        }
+                      },
+                      {
+                        "position": 3,
+                        "checkinClass": {
+                          "code": "",
+                          "description": ""
+                        }
+                      },
+                      {
+                        "position": 4,
+                        "checkinClass": {
+                          "code": "",
+                          "description": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "remarks": null
+      },
+      "transferPositions": {
+        "transferPositions": [
+          9
+        ]
+      },
+      "aircraftType": {
+        "iatamain": "320",
+        "iatasub": "32S"
+      },
+      "aircraftRegistration": "TCNBG",
+      "airlineCode": 100,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    },
+    {
+      "id": 121426418419591561,
+      "flightName": "ZXP031",
+      "scheduleDate": "2017-03-25",
+      "flightDirection": "D",
+      "flightNumber": 31,
+      "prefixIATA": null,
+      "prefixICAO": "ZXP",
+      "scheduleTime": "01:23:00",
+      "serviceType": null,
+      "mainFlight": "ZXP031",
+      "codeshares": null,
+      "estimatedLandingTime": null,
+      "actualLandingTime": null,
+      "publicEstimatedOffBlockTime": null,
+      "actualOffBlockTime": "2017-03-25T01:35:00.000+01:00",
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "AMS"
+        ]
+      },
+      "terminal": null,
+      "gate": null,
+      "baggageClaim": null,
+      "expectedTimeOnBelt": null,
+      "checkinAllocations": null,
+      "transferPositions": null,
+      "aircraftType": {
+        "iatamain": null,
+        "iatasub": null
+      },
+      "aircraftRegistration": "PHPXC",
+      "airlineCode": 148,
+      "expectedTimeGateOpen": null,
+      "expectedTimeBoarding": null,
+      "expectedTimeGateClosing": null,
+      "schemaVersion": "3"
+    }
+  ],
+  "schemaVersion": "3"
+}

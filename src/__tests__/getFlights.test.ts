@@ -2,7 +2,7 @@ import Schiphol from '..';
 
 require('./getFlights.mock'); // tslint:disable-line
 
-const schiphol = new Schiphol('', '');
+const schiphol = new Schiphol('appId', 'appKey');
 
 describe('getFlights', () => {
   test('Gets the first page of flights', () => (

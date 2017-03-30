@@ -67,6 +67,8 @@ export default class Schiphol {
     return res.json().then(response => {
       delete response.schemaVersion;
       return response[Object.keys(response)[0]];
+    }).catch(err => {
+      throw new Error('Unable to parse response json.');
     });
   }
 
@@ -75,6 +77,9 @@ export default class Schiphol {
       headers: {ResourceVersion: 'v3'},
     })
     .then(res => {
+      if (!res.ok) {
+        throw new Error(`Unexpected response status "${res.status}: ${res.statusText}"`);
+      }
       const linkHeader = res.headers.get('link');
       const locationInfo = this.getLocationInfoFromLinkHeader(linkHeader);
 

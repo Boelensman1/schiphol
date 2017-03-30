@@ -40,7 +40,7 @@ export class Flight {
   public codeshares: Array<string>;
   public estimatedLandingTime: Date | undefined;
   public actualLandingTime: Time | undefined;
-  public publicEstimatedOffBlockTime: Time | undefined;
+  public publicEstimatedOffBlockTime: Date | undefined;
   public actualOffBlockTime: Date | undefined;
   public publicFlightState: Array<string>;
   public route: Array<string>;
@@ -54,9 +54,9 @@ export class Flight {
   public aircraftType: AircraftType;
   public aircraftRegistration: string;
   public airlineCode: number;
-  public expectedTimeGateOpen: Date;
-  public expectedTimeBoarding: Date;
-  public expectedTimeGateClosing: Date;
+  public expectedTimeGateOpen: Date | undefined;
+  public expectedTimeBoarding: Date | undefined;
+  public expectedTimeGateClosing: Date | undefined;
 
   private getScheduleDate(dateInput: string): Date {
     const dateSplit = dateInput.split('-').map(part => parseInt(part, 10));
@@ -72,6 +72,16 @@ export class Flight {
   private getDate(dateInput: string | null): Date | undefined {
     if (!dateInput) { return; }
     return new Date(dateInput);
+  }
+
+  private getArray(arrayInput: object | null, key: string): Array<string> {
+    if (!arrayInput) { return []; }
+    return arrayInput[key];
+  }
+
+  private getIntArray(arrayInput: object | null, key: string): Array<number> {
+    if (!arrayInput) { return []; }
+    return arrayInput[key].map(value => parseInt(value, 10));
   }
 
   private setCheckinAllocations(checkinAllocations) {
@@ -114,45 +124,22 @@ export class Flight {
     this.isArrival = flightInfo.flightDirection === 'A';
 
     // the arrays
-    this.codeshares =  [];
-    if (flightInfo.codeshares) {
-      this.codeshares = flightInfo.codeshares.codeshares;
-    }
-    this.publicFlightState = [];
-    if (flightInfo.publicFlightState) {
-      this.publicFlightState = flightInfo.publicFlightState.flightStates;
-    }
-    this.route = [];
-    if (flightInfo.route) {
-      this.route = flightInfo.route.destinations;
-    }
-    this.baggageClaim = [];
-    if (flightInfo.baggageClaim) {
-      this.baggageClaim = flightInfo.baggageClaim.belts;
-    }
-    this.transferPositions = [];
-    if (flightInfo.transferPositions) {
-      this.transferPositions = flightInfo.transferPositions.transferPositions;
-    }
+    this.codeshares = this.getArray(flightInfo.codeshares, 'codeshares');
+    this.publicFlightState = this.getArray(flightInfo.publicFlightState, 'flightStates');
+    this.route = this.getArray(flightInfo.route, 'destinations');
+    this.baggageClaim = this.getArray(flightInfo.baggageClaim, 'belts');
+    this.transferPositions = this.getIntArray(flightInfo.transferPositions, 'transferPositions');
 
     // the times
     this.scheduleTime = this.getTime(flightInfo.scheduleTime);
     this.actualLandingTime = this.getTime(flightInfo.actualLandingTime);
 
     // the dates
-    if (flightInfo.actualOffBlockTime) {
-      this.actualOffBlockTime = new Date(flightInfo.actualOffBlockTime);
-    }
-    if (flightInfo.expectedTimeGateOpen) {
-      this.expectedTimeGateOpen = new Date(flightInfo.expectedTimeGateOpen);
-    }
-    if (flightInfo.expectedTimeBoarding) {
-      this.expectedTimeBoarding = new Date(flightInfo.expectedTimeBoarding);
-    }
-    if (flightInfo.expectedTimeGateClosing) {
-      this.expectedTimeGateClosing = new Date(flightInfo.expectedTimeGateClosing);
-    }
     this.estimatedLandingTime = this.getDate(flightInfo.estimatedLandingTime);
     this.actualOffBlockTime = this.getDate(flightInfo.actualOffBlockTime);
+    this.publicEstimatedOffBlockTime = this.getDate(flightInfo.publicEstimatedOffBlockTime);
+    this.expectedTimeGateOpen = this.getDate(flightInfo.expectedTimeGateOpen);
+    this.expectedTimeBoarding = this.getDate(flightInfo.expectedTimeBoarding);
+    this.expectedTimeGateClosing = this.getDate(flightInfo.expectedTimeGateClosing);
   }
 }

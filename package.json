@@ -14,13 +14,13 @@
   },
   "devDependencies": {
     "@types/jest": "latest",
-    "@types/node": "7.0.8",
+    "@types/node": "7.0.12",
     "jest": "^19.0.2",
-    "run-sequence": "^1.2.2",
-    "tslint": "^4.5.1",
-    "nock": "^9.0.9",
+    "nock": "9.0.11",
     "rimraf": "^2.6.1",
-    "ts-jest": "^19.0.4"
+    "run-sequence": "^1.2.2",
+    "ts-jest": "19.0.6",
+    "tslint": "5.0.0"
   },
   "scripts": {
     "compile": "tsc",

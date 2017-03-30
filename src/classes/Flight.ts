@@ -39,7 +39,7 @@ export class Flight {
   public mainFlight: string;
   public codeshares: Array<string>;
   public estimatedLandingTime: Date | undefined;
-  public actualLandingTime: Time | undefined;
+  public actualLandingTime: Date | undefined;
   public publicEstimatedOffBlockTime: Date | undefined;
   public actualOffBlockTime: Date | undefined;
   public publicFlightState: Array<string>;
@@ -132,10 +132,10 @@ export class Flight {
 
     // the times
     this.scheduleTime = this.getTime(flightInfo.scheduleTime);
-    this.actualLandingTime = this.getTime(flightInfo.actualLandingTime);
 
     // the dates
     this.estimatedLandingTime = this.getDate(flightInfo.estimatedLandingTime);
+    this.actualLandingTime = this.getDate(flightInfo.actualLandingTime);
     this.actualOffBlockTime = this.getDate(flightInfo.actualOffBlockTime);
     this.publicEstimatedOffBlockTime = this.getDate(flightInfo.publicEstimatedOffBlockTime);
     this.expectedTimeGateOpen = this.getDate(flightInfo.expectedTimeGateOpen);

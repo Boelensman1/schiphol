@@ -87,57 +87,57 @@ export class Flight {
   }
 
   constructor(flightInfo: any) {
-  this.id = flightInfo.id;
-  this.flightName = flightInfo.flightName;
-  this.scheduleDate = this.getScheduleDate(flightInfo.scheduleDate);
-  this.isArrival = flightInfo.flightDirection === 'A';
-  this.flightNumber = flightInfo.flightNumber;
-  this.prefixIATA = flightInfo.prefixIATA;
-  this.prefixICAO = flightInfo.prefixICAO;
-  this.scheduleTime = this.getTime(flightInfo.scheduleTime);
-  this.serviceType = flightInfo.serviceType;
-  this.mainFlight = flightInfo.mainFlight;
-  this.codeshares =  [];
-  if (flightInfo.codeshares) {
-    this.codeshares = flightInfo.codeshares.codeshares;
-  }
-  this.estimatedLandingTime = this.getTime(flightInfo.estimatedLandingTime);
-  this.actualLandingTime = this.getTime(flightInfo.actualLandingTime);
-  this.publicEstimatedOffBlockTime = this.getTime(flightInfo.publicEstimatedOffBlockTime);
-  this.actualOffBlockTime = this.getTime(flightInfo.actualOffBlockTime);
-  this.publicFlightState = [];
-  if (flightInfo.publicFlightState) {
-    this.publicFlightState = flightInfo.publicFlightState.flightStates;
-  }
-  this.route = [];
-  if (flightInfo.route) {
-    this.route = flightInfo.route.destinations;
-  }
-  this.terminal = flightInfo.terminal;
-  this.gate = flightInfo.gate;
-  this.baggageClaim = [];
-  if (flightInfo.baggageClaim) {
-    this.baggageClaim = flightInfo.baggageClaim.belts;
-  }
-  this.expectedTimeOnBelt = flightInfo.expectedTimeOnBelt;
-  this.setCheckinAllocations(flightInfo.checkinAllocations);
+    this.id = flightInfo.id;
+    this.flightName = flightInfo.flightName;
+    this.scheduleDate = this.getScheduleDate(flightInfo.scheduleDate);
+    this.isArrival = flightInfo.flightDirection === 'A';
+    this.flightNumber = flightInfo.flightNumber;
+    this.prefixIATA = flightInfo.prefixIATA;
+    this.prefixICAO = flightInfo.prefixICAO;
+    this.scheduleTime = this.getTime(flightInfo.scheduleTime);
+    this.serviceType = flightInfo.serviceType;
+    this.mainFlight = flightInfo.mainFlight;
+    this.codeshares =  [];
+    if (flightInfo.codeshares) {
+      this.codeshares = flightInfo.codeshares.codeshares;
+    }
+    this.estimatedLandingTime = this.getTime(flightInfo.estimatedLandingTime);
+    this.actualLandingTime = this.getTime(flightInfo.actualLandingTime);
+    this.publicEstimatedOffBlockTime = this.getTime(flightInfo.publicEstimatedOffBlockTime);
+    this.actualOffBlockTime = this.getTime(flightInfo.actualOffBlockTime);
+    this.publicFlightState = [];
+    if (flightInfo.publicFlightState) {
+      this.publicFlightState = flightInfo.publicFlightState.flightStates;
+    }
+    this.route = [];
+    if (flightInfo.route) {
+      this.route = flightInfo.route.destinations;
+    }
+    this.terminal = flightInfo.terminal;
+    this.gate = flightInfo.gate;
+    this.baggageClaim = [];
+    if (flightInfo.baggageClaim) {
+      this.baggageClaim = flightInfo.baggageClaim.belts;
+    }
+    this.expectedTimeOnBelt = flightInfo.expectedTimeOnBelt;
+    this.setCheckinAllocations(flightInfo.checkinAllocations);
 
-  this.transferPositions = [];
-  if (flightInfo.transferPositions) {
-    this.transferPositions = flightInfo.transferPositions.transferPositions;
-  }
-  this.aircraftType = flightInfo.aircraftType;
-  this.aircraftRegistration = flightInfo.aircraftRegistration;
-  this.airlineCode = flightInfo.airlineCode;
+    this.transferPositions = [];
+    if (flightInfo.transferPositions) {
+      this.transferPositions = flightInfo.transferPositions.transferPositions;
+    }
+    this.aircraftType = flightInfo.aircraftType;
+    this.aircraftRegistration = flightInfo.aircraftRegistration;
+    this.airlineCode = flightInfo.airlineCode;
 
-  if (flightInfo.expectedTimeGateOpen) {
-    this.expectedTimeGateOpen = new Date(flightInfo.expectedTimeGateOpen);
+    if (flightInfo.expectedTimeGateOpen) {
+      this.expectedTimeGateOpen = new Date(flightInfo.expectedTimeGateOpen);
+    }
+    if (flightInfo.expectedTimeBoarding) {
+      this.expectedTimeBoarding = new Date(flightInfo.expectedTimeBoarding);
+    }
+    if (flightInfo.expectedTimeGateClosing) {
+      this.expectedTimeGateClosing = new Date(flightInfo.expectedTimeGateClosing);
+    }
   }
-  if (flightInfo.expectedTimeBoarding) {
-    this.expectedTimeBoarding = new Date(flightInfo.expectedTimeBoarding);
-  }
-  if (flightInfo.expectedTimeGateClosing) {
-    this.expectedTimeGateClosing = new Date(flightInfo.expectedTimeGateClosing);
-  }
-  }
-};
+}

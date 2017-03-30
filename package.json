@@ -6,6 +6,11 @@
   "types": "./lib/index.d.ts",
   "license": "MIT",
   "author": "Wigger Boelens <me@wiggerboelens.com> (http://wiggerboelens.com/)",
+  "bugs": "https://github.com/Boelensman1/schiphol/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Boelensman1/schiphol"
+  },
   "dependencies": {
     "node-fetch": "^1.6.3"
   },

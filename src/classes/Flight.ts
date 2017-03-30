@@ -38,7 +38,7 @@ export class Flight {
   public serviceType: string;
   public mainFlight: string;
   public codeshares: Array<string>;
-  public estimatedLandingTime: Time | undefined;
+  public estimatedLandingTime: Date | undefined;
   public actualLandingTime: Time | undefined;
   public publicEstimatedOffBlockTime: Time | undefined;
   public actualOffBlockTime: Date | undefined;
@@ -67,6 +67,11 @@ export class Flight {
     if (!timeInput) { return; }
     const timeSplit = timeInput.split(':').map(part => parseInt(part, 10));
     return new Time(timeSplit[0], timeSplit[1], timeSplit[2]);
+  }
+
+  private getDate(dateInput: string | null): Date | undefined {
+    if (!dateInput) { return; }
+    return new Date(dateInput);
   }
 
   private setCheckinAllocations(checkinAllocations) {
@@ -132,9 +137,7 @@ export class Flight {
 
     // the times
     this.scheduleTime = this.getTime(flightInfo.scheduleTime);
-    this.estimatedLandingTime = this.getTime(flightInfo.estimatedLandingTime);
     this.actualLandingTime = this.getTime(flightInfo.actualLandingTime);
-    this.publicEstimatedOffBlockTime = this.getTime(flightInfo.publicEstimatedOffBlockTime);
 
     // the dates
     if (flightInfo.actualOffBlockTime) {
@@ -149,5 +152,7 @@ export class Flight {
     if (flightInfo.expectedTimeGateClosing) {
       this.expectedTimeGateClosing = new Date(flightInfo.expectedTimeGateClosing);
     }
+    this.estimatedLandingTime = this.getDate(flightInfo.estimatedLandingTime);
+    this.actualOffBlockTime = this.getDate(flightInfo.actualOffBlockTime);
   }
 }
